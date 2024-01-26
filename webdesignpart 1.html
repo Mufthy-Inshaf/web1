@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Product Store</title>
+    <!-- Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Inline CSS for additional styling -->
+    <style>
+        body {
+            padding-top: 70px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .animate {
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .animate:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Awesome Store</a>
+    </nav>
+
+    <!-- Product Listing -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card animate">
+                    <div style="background-color: orange;color: white;">
+                    <h3>Product 1</h3>
+                    <p>Description of Product 1.</p>
+                    <p>$19.99</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" >
+                <div class="product-card animate">
+                    <div style="background-color: orange;color: white;">
+                    <h3>Product 2</h3>
+                    <p>Description of Product 2.</p>
+                    <p>$29.99</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" >
+                <div class="product-card animate">
+                    <div style="background-color: orange;color: white;">
+                    <h3>Product 3</h3>
+                    <p>Description of Product 3.</p>
+                    <p>$39.99</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Gateway Placeholder -->
+    <div class="container mt-5">
+        <h2>Payment Gateway</h2>
+        <p>This is a placeholder for the payment gateway integration.</p>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js from CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
